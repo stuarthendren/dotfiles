@@ -1,0 +1,11 @@
+export DEFAULT_USER=stuarthendren
+export ADMIN_USER=stuarthendren_admin
+export EDITOR='code'
+export SONAR_URL=https://sonar.committed.software
+export SONAR_HOST=https://sonar.committed.software
+export SONAR_USER=stuarthendren
+export SONAR_LOGIN=stuarthendren
+export NODE_BINARY_PATH=$HOME/.nvm/versions/node/v8.7.0/bin/node
+export JAVA_HOME=$(/usr/libexec/java_home)
+export LICENSE_FULL_NAME="Committed Software Ltd"
+export GITHUB_USERNAME=$DEFAULT_USER

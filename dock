@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# Exit if not on mac 
+if [ "$(uname)" != "Darwin" ]; then
+  exit 0
+fi
+
+CURRENT_SCRIPT_NAME=${0##*/}
+
+echo "##############################"
+echo "DOTFILES $CURRENT_SCRIPT_NAME"
+echo "##############################"
+
+dockutil --no-restart --remove all
+dockutil --no-restart --add '/System/Applications/Finder.app/'
+dockutil --no-restart --add '/System/Applications/Messages.app/'
+dockutil --no-restart --add '/Applications/iTerm.app'
+dockutil --no-restart --add '/Applications/Google Chrome.app'
+dockutil --no-restart --add '/Applications/Microsoft Teams.app'
+dockutil --no-restart --add '/Applications/Microsoft Outlook.app'
+dockutil --no-restart --add '~/Applications/Visual Studio Code.app'
+dockutil --no-restart --add '~/Applications/Figma.app'
+dockutil --no-restart --add '~/Downloads' --view grid --display folder --allhomes
+
+killall Dock

@@ -1,0 +1,25 @@
+
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+alias rmhost="ssh-keygen -R /$"
+
+# ls based
+alias ll='ls -alh'
+alias la='ls -A'
+alias l='ls -CFlh'
+alias lsf="ls -alF | grep $"
+
+# exa based
+#alias lt='exa -T'
+#alias l='exa -bghHliS'
+#alias ls='exa'
+#alias la='l -a'
+#alias lsf="ls -alF | grep $"
+
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to clipboard.'"
+alias json=" jq -C '.' | less -R"
+alias dus='du -d 1 -h | sort -h'
+#alias cat='bat'
+
+alias his='history | tail -n 100; echo "Only last 100. For full, type: history"'
