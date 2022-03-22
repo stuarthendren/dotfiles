@@ -44,7 +44,7 @@ plugins=(
   gitignore
   kubectl
   kubectx 
-  osx
+  macos
   virtualenv
   vscode
 )

@@ -135,3 +135,5 @@
 	signingkey = FDF9097005963847
 [init]
 	defaultBranch = main
+[pull]
+	rebase = true
