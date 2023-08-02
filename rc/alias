@@ -11,11 +11,15 @@ alias l='ls -CFlh'
 alias lsf="ls -alF | grep $"
 
 # exa based
-#alias lt='exa -T'
-#alias l='exa -bghHliS'
-#alias ls='exa'
-#alias la='l -a'
-#alias lsf="ls -alF | grep $"
+if command -v exa &> /dev/null
+then
+    alias lt='exa -T'
+    alias l='exa -bghHliS'
+    alias ls='exa'
+    alias la='l -a'
+    alias lsf="ls -alF | grep $"
+fi
+
 
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to clipboard.'"
 alias json=" jq -C '.' | less -R"
@@ -23,3 +27,6 @@ alias dus='du -d 1 -h | sort -h'
 #alias cat='bat'
 
 alias his='history | tail -n 100; echo "Only last 100. For full, type: history"'
+
+alias pm=pnpm
+alias px=pnpm dlx

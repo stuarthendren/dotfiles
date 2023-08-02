@@ -36,9 +36,10 @@
   # Committing
   c = commit
   # Commit with message
-  cm = "!cim() { git commit -m \"$1\"; }; cim"
+  cm = "!cim() { git commit -m \"$@\"; }; cim"
   # Ammend last commit
   ca = commit --amend --no-edit
+  can = commit --amend --no-edit --no-verify
   # Mark for fixup
   cf = commit --fixup
 

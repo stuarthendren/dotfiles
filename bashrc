@@ -1,3 +1,4 @@
+echo "BASH PROFILE ACTIVATED"
 
 # Load all files from .rc.d directory
 if [ -d "$HOME/.rc.d" ]; then
@@ -6,3 +7,5 @@ if [ -d "$HOME/.rc.d" ]; then
   done
 fi
 
+
+PATH=~/.console-ninja/.bin:$PATH
