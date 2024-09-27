@@ -7,5 +7,3 @@ if [ -d "$HOME/.rc.d" ]; then
   done
 fi
 
-
-PATH=~/.console-ninja/.bin:$PATH
