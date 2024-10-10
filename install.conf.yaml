@@ -6,6 +6,7 @@
 - clean: ["~"]
 
 - link:
+    ~/.aerospace.toml:
     ~/.bashrc:
     ~/.gitconfig:
     ~/.gitignore_global:
