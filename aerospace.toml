@@ -127,6 +127,27 @@ alt-s = 'workspace S' # Social
 alt-t = 'workspace T' # Terminal
 alt-z = 'workspace Z' # Work
 
+alt-cmd-1 = 'workspace 1'
+alt-cmd-2 = 'workspace 2'
+alt-cmd-4 = 'workspace 4'
+alt-cmd-5 = 'workspace 5'
+alt-cmd-6 = 'workspace 6'
+alt-cmd-7 = 'workspace 7'
+alt-cmd-8 = 'workspace 8'
+alt-cmd-9 = 'workspace 9'
+alt-cmd-a = 'workspace A' # In your config, you can drop workspace bindings that you don't need
+alt-cmd-b = 'workspace B'
+alt-cmd-c = 'workspace C'
+alt-cmd-d = 'workspace D' # Dev
+alt-cmd-m = 'workspace M' # Media
+alt-cmd-n = 'workspace N' # Notes
+alt-cmd-o = 'workspace O' # Other
+alt-cmd-p = 'workspace P' # Personal
+alt-cmd-r = 'workspace R' # Reading
+alt-cmd-s = 'workspace S' # Social
+alt-cmd-t = 'workspace T' # Terminal
+alt-cmd-z = 'workspace Z' # Work
+
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1'
 alt-shift-2 = 'move-node-to-workspace 2'
