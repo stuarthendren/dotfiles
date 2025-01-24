@@ -74,3 +74,5 @@ if [ -f '/etc/bash_completion.d/docker-machine-prompt.bash' ]; then source '/etc
 
 
 
+
+. "$HOME/.local/bin/env"

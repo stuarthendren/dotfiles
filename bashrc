@@ -7,3 +7,5 @@ if [ -d "$HOME/.rc.d" ]; then
   done
 fi
 
+
+. "$HOME/.local/bin/env"
