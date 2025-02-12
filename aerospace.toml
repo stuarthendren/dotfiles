@@ -118,6 +118,7 @@ alt-a = 'workspace A' # In your config, you can drop workspace bindings that you
 alt-b = 'workspace B'
 alt-c = 'workspace C'
 alt-d = 'workspace D' # Dev
+alt-g = 'workspace G' # Guitar
 alt-m = 'workspace M' # Media
 alt-n = 'workspace N' # Notes
 alt-o = 'workspace O' # Other
@@ -139,6 +140,7 @@ alt-cmd-a = 'workspace A' # In your config, you can drop workspace bindings that
 alt-cmd-b = 'workspace B'
 alt-cmd-c = 'workspace C'
 alt-cmd-d = 'workspace D' # Dev
+alt-cmd-g = 'workspace G' # Guitar
 alt-cmd-m = 'workspace M' # Media
 alt-cmd-n = 'workspace N' # Notes
 alt-cmd-o = 'workspace O' # Other
@@ -161,6 +163,7 @@ alt-shift-a = 'move-node-to-workspace A'
 alt-shift-b = 'move-node-to-workspace B'
 alt-shift-c = 'move-node-to-workspace C'
 alt-shift-d = 'move-node-to-workspace D'
+alt-shift-g = 'move-node-to-workspace G'
 alt-shift-m = 'move-node-to-workspace M'
 alt-shift-n = 'move-node-to-workspace N'
 alt-shift-o = 'move-node-to-workspace O'
@@ -185,6 +188,7 @@ alt-ctrl-a = 'move-node-to-workspace A'
 alt-ctrl-b = 'move-node-to-workspace B'
 alt-ctrl-c = 'move-node-to-workspace C'
 alt-ctrl-d = 'move-node-to-workspace D'
+alt-ctrl-g = 'move-node-to-workspace G'
 alt-ctrl-m = 'move-node-to-workspace M'
 alt-ctrl-n = 'move-node-to-workspace N'
 alt-ctrl-o = 'move-node-to-workspace O'
@@ -226,6 +230,7 @@ alt-shift-l = ['join-with right', 'mode main']
 if.app-id = 'com.microsoft.VSCode' 
 run = "move-node-to-workspace D"
 
+# G Guitar
 # M Media
 
 
